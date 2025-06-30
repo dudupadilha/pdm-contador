@@ -1,0 +1,20 @@
+appId: com.contador
+---
+- openLink: exp://127.0.0.1:8081
+
+- tapOn:
+    id: input-email
+- inputText: "exemplo@email.com"
+
+- tapOn:
+    id: input-senha
+- inputText: "exemplo123"
+
+- tapOn:
+    id: button-login
+
+- tapOn: "Diminuir"
+
+- tapOn: "Diminuir"
+
+- tapOn: "Diminuir"

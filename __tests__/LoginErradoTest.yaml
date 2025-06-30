@@ -1,0 +1,11 @@
+appId: com.contador
+---
+- openLink: exp://127.0.0.1:8081
+- tapOn:
+    id: input-email
+- inputRandomEmail
+- tapOn:
+    id: input-senha
+- inputRandomNumber
+- tapOn:
+    id: button-login
